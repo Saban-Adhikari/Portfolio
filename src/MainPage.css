@@ -81,8 +81,12 @@ body{
     color: gray;
 }
 
-.github-link:visited{
+.github-link{
     color:yellow;
+}
+
+.github-link:visited{
+    color: yellow;
 }
 
 .contact-container p{
