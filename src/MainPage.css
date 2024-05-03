@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+}
+
+.container{
+    max-width: 100vh;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    padding: 0%;
+    color: gray;
+}
+
+.navbar li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+.navbar li a:hover{
+    color: #ffffff;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.heading-container{
+    margin-top: 5%;
+}
+
+.intro-style{
+   color: yellow; 
+   font-weight: "bold";
+}
+
+.heading-description{
+    color: gray;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.skillset{
+    list-style: none;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    margin-right: 5%;
+    align-items: center;
+    border-style: solid;
+    border-radius: 20px;
+    padding-top: 2%;
+    border-color: #232D3F;
+    background-color: #040D12;
+}
+
+.skillset li {
+    text-align: center;
+    width: calc(100% / 3);
+}
+
+.work-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-desc{
+    color: gray;
+}
+
+.github-link{
+    color:yellow;
+}
+
+.github-link:visited{
+    color: yellow;
+}
+
+.contact-container p{
+    color: gray;
+    text-align: justify;
+    padding-right: 3%;
+    line-height: 30px;
+}
+
+.mail-to{
+    text-decoration: none;
+    color: yellow;
+}
+
+  @media screen and (min-width: 360px) {
+
+    .container{
+        padding-left: 30px;
+        font-size: 20px;
+    }
+
+    .heading-container{
+        justify-content: flex-start;
+    }
+
+    .heading{
+        font-size: large;     
+    }
+
+    .heading-description{
+        padding-right: 5%;
+    }
+  }
+
