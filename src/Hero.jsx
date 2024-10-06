@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="heading-container" id="heading-bar">
         <div className="heading">
           <h1>
-            Hi, I'm Saban — A <span className="intro-style">Developer</span>
+            Hi, I'm Saban — A <span className="intro-style">Developer </span>
             based <br />
             in Kathmandu, Nepal.
           </h1>
